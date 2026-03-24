@@ -1,1 +1,37 @@
+# Environment files
 .env
+.env.*
+!.env.example
+
+# Go build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Build output directories
+bin/
+build/
+dist/
+
+# Go coverage and profiling
+coverage.out
+coverage.html
+*.prof
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*~
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
