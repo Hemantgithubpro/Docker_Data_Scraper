@@ -1,0 +1,4 @@
+# For analysis
+1. I will use parquet files for storage and query them using ClickHouse. This will allow me to efficiently store and query large volumes of data.
+2. For cloud storage and backup, I will use Clickhouse's built-in backup and restore functionality as it gives free 10 GB of storage and unlimited downloads. This will allow me to easily backup and restore my data without incurring additional costs.
+3. I will use Docker to containerize my ClickHouse instance, which will allow me to easily manage and deploy my ClickHouse instance across different environments. Docker will also help me to isolate my ClickHouse instance from the host system, ensuring that it runs consistently regardless of the underlying infrastructure.
