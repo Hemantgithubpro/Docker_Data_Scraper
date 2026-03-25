@@ -32,7 +32,7 @@ func main() {
 
 	// // Start WebSocket Connection
 	tokens := []TokenInfo{
-		// {ExchangeType: 1, Tokens: []string{"99926000","2885"}}, // nifty 50, reliance nse
+		{ExchangeType: 1, Tokens: []string{"99926000","2885"}}, // nifty 50, reliance nse
 		// {ExchangeType: 3, Tokens: []string{"99919000"}}, // sensex bse
 		{ExchangeType: 2, Tokens: []string{"62434"}}, // nfo
 		// {ExchangeType: 1, Tokens: []string{"2885"}},

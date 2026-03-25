@@ -5,10 +5,10 @@ cd /home/hemant/StockMarketData/exp1/ || exit
 
 case "$1" in
     start)
-        docker compose up -d
+        /usr/bin/docker compose up -d
         ;;
     stop)
-        docker compose stop
+        /usr/bin/docker compose stop
         ;;
     *)
         echo "Usage: $0 {start|stop}"
